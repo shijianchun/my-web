@@ -1,0 +1,62 @@
+[
+	{
+		"title" :"首页",
+		"router" :"/index",
+		"name" :"index",
+		"subName" :"index",
+		"childs":[
+			
+		]
+	},{
+		"title":"海汀顿",
+		"router" :"/htd/1",
+		"name" :"htd",
+		"subName" :"htd",
+		"childs":[
+			{"title":"品牌简介","router" :"/htd/1","subName":"brand-introduction"},
+			{"title":"文化与理念","router" :"/htd/2","subName":"culture-and-idea"},
+			{"title":"CEO寄语","router" :"/htd/3","subName":"CEO-message"}
+		]
+	},{
+		"title":"英国EYFS",
+		"router" :"/eyfs",
+		"name" :"eyfs",
+		"subName" :"eyfs",
+		"childs":[]
+	},{
+		"title":"专家团队",
+		"router" :"/leader/index",
+		"name": "leader",
+		"subName" :"leader",
+		"childs":[
+			{"title":"专家顾问","name" :"leader","router" :"/leader/adviser","subName":"expert-advisor"},
+			{"title":"精英团队","name" :"leader","router" :"/leader/elite","subName":"elite-team"}
+		]
+	},{
+		"title":"园所分布",
+		"router" :"/map",
+		"name" :"map",
+		"subName" :"map",
+		"childs":[]
+	},{
+		"title":"预约报名",
+		"router" :"/reservations/1",
+		"name" :"reservations",
+		"subName" :"reservations",
+		"childs":[
+			{"title":"预约参观","name" :"reservations","router" :"/reservations/1","subName":"appointment-visit"},
+			{"title":"活动报名","name" :"reservations","router" :"/reservations/2","subName":"activity-registration"}
+		]
+	},{
+		"title":"联系我们",
+		"router" :"/contact-us/index",
+		"name" :"contact-us",
+		"subName":"contact-us",
+		"childs":[
+			{"title":"教育服务","name" :"contact-us","router" :"/contact-us/e1","subName":"education-ervice"},
+			{"title":"合作办学","name" :"contact-us","router" :"/contact-us/e2","subName":"cooperation-running-school"},
+			{"title":"项目发展","name" :"contact-us","router" :"/contact-us/e3","subName":"project-development"},
+			{"title":"人才引进","name" :"contact-us","router" :"/contact-advertis","subName":"talent-introduction"}
+		]
+	}
+]
